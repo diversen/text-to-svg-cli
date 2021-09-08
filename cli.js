@@ -18,19 +18,18 @@ const cli = minimist(opts)
 
 // Check config file is set. 
 // If not exit
-var config = cli.get('config');
+const config = cli.get('config');
 if (!config){
     cli.helpMessage();
     process.exit(1);
 }
-
 
 try {
     const options = getConfig(config);
     const textToSVG = TextToSVG.loadSync(options.font);
     const svg = textToSVG.getSVG(options.text, options.options);
     write.sync(options.save_path, svg, { overwrite: true });
-    process.exit(1);
+    process.exit(0);
 } catch (error) {
     console.log(error);
     process.exit(1);
