@@ -1,0 +1,20 @@
+{
+  "name": "text-to-svg-cli",
+  "version": "1.0.0",
+  "description": "Create a svg file from text-to-svg - using a config file",
+  "main": "index.js",
+  "bin": {
+    "text-to-svg-cli": "cli.js"
+  },
+  "keywords": [
+    "SVG",
+    "SVG-logo"
+  ],
+  "author": "dennis iversen",
+  "license": "MIT",
+  "dependencies": {
+    "minimist-mini": "^2.0.9",
+    "text-to-svg": "^3.1.5",
+    "write": "^2.0.0"
+  }
+}

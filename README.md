@@ -1,6 +1,6 @@
 # text-to-svg-cli
 
-This is just a small CLI wrapper around https://www.npmjs.com/package/text-to-svg
+This is just a small CLI wrapper around [https://www.npmjs.com/package/text-to-svg](https://www.npmjs.com/package/text-to-svg)
 
 Install:
 
@@ -12,20 +12,23 @@ Usage:
 
 Config file format:
 
-{
-    "text": "Logo",
-    "font": "./Origami-Mommy-Pixellated.ttf",
-    "save_path": "./test.svg",
-    "options": { 
-        "x": 0, 
-        "y": 0, 
-        "fontSize": 200, 
-        "anchor": "top",
-        "letterSpacing": "0.5",
-        "attributes": { 
-            "fill": "#1c76c5", 
-            "stroke": "#41adff"
+    {
+        "text": "Logo",
+        "font": "./Origami-Mommy-Pixellated.ttf",
+        "save_path": "./test.svg",
+        "options": { 
+            "x": 0, 
+            "y": 0, 
+            "fontSize": 200, 
+            "anchor": "top",
+            "letterSpacing": "0.5",
+            "attributes": { 
+                "fill": "#1c76c5", 
+                "stroke": "#41adff"
+            }
         }
     }
-}
 
+# License
+
+MIT © [Dennis Iversen](https://github.com/diversen)
