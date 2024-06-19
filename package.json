@@ -1,6 +1,7 @@
 {
   "name": "text-to-svg-cli",
-  "version": "1.0.0",
+  "homepage": "https://github.com/diversen/text-to-svg-cli#readme",
+  "version": "1.0.2",
   "description": "Create a svg file from text-to-svg - using a config file",
   "main": "index.js",
   "bin": {
